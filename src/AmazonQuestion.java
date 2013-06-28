@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 
-public class AmazonQuestion {
+public class Question {
 	public static int[] matrixToArray(int[][] matrix) {
 		int r = matrix.length;
 		
@@ -54,7 +54,7 @@ public class AmazonQuestion {
 		                  {2, 4, 24, 25},
 		                  {2, 4, 25, 27}};
 		
-		int[] result = AmazonQuestion.matrixToArray(matrix);
+		int[] result = Question.matrixToArray(matrix);
 		System.out.printf("The array version of the matrix is %s", Arrays.toString(result));
 	}
 }
